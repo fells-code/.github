@@ -29,15 +29,15 @@ Seamless Auth is a passwordless authentication system designed to be embedded di
 **Core projects:**
 
 - **Seamless Auth Server**  
-  https://github.com/fells-code/seamless-auth-server  
+  https://github.com/fells-code/seamless-auth-api  
   The authentication server responsible for verification, session issuance, and identity state.
 
 - **Seamless Auth API (Core)**  
-  https://github.com/fells-code/seamless-auth-core  
+  https://github.com/fells-code/seamless-auth-server/packages/core  
   Framework-agnostic authentication logic used across all integrations.
 
 - **Seamless Auth Express Adapter**  
-  https://github.com/fells-code/seamless-auth-express  
+  https://github.com/fells-code/seamless-auth-server/packages/express  
   Express middleware for authentication and role-based authorization.
 
 - **Seamless Auth React SDK**  
@@ -62,8 +62,9 @@ Seamless Glance is a developer-focused operational visibility tool designed to h
 
 It provides a read-only, terminal-based interface that surfaces high-signal information without requiring deep navigation through provider consoles.
 
-Repository:  
-https://github.com/fells-code/seamless-glance
+Repositories:  
+- https://github.com/fells-code/seamless-glance
+- https://github.com/fells-code/seamless-glance-distro
 
 Primary goals:
 - Fast infrastructure triage
@@ -98,8 +99,8 @@ All Fells Code projects follow a shared set of principles:
 
 Our products commonly use:
 
-- **Infrastructure:** Docker, Terraform, AWS (ECS, VPC, ALB, EFS, RDS)
-- **Backend:** Node.js, TypeScript, Express, PostgreSQL
+- **Infrastructure:** Docker, Terraform, AWS, IBM
+- **Backend:** Node.js, TypeScript, Express, Rust, Python, PostgreSQL
 - **Frontend:** React, Vite, Next.js
 - **CI/CD:** GitHub Actions, automated release pipelines
 - **Security:** Passwordless authentication, signed cookies, JWKS, secrets management
@@ -128,4 +129,4 @@ For partnerships, security inquiries, or collaboration, please reach out via ema
 
 ---
 
-Fells Code builds software that is meant to be understood, trusted, and run in production.
+Fells Code exists to build software that strengthens the world we all share.
