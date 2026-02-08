@@ -1,92 +1,131 @@
-# 🏔️ Fells Code LLC
+# Fells Code LLC
 
-**Building the future of software, one seamless experience at a time.**
+Fells Code LLC is a software company focused on building secure, reliable authentication and infrastructure tooling for modern applications.
 
-Fells Code LLC is a modern software development company focused on creating secure, scalable, and user-centric solutions for developers and businesses.  
-Our mission is simple: deliver powerful tools that remove friction — so you can build, launch, and scale faster.
-
----
-
-## 🚀 Our Products
-
-### 🟣 [Seamless Auth](https://seamlessauth.com)
-**Passwordless authentication, reimagined.**  
-Seamless Auth is a next-generation authentication platform designed for developers who value security and simplicity.  
-It offers fully managed, single-tenant infrastructure, passwordless login via WebAuthn, email, or phone, and first-class SDKs for React and Next.js.
-
-**Highlights:**
-- 🔒 100% passwordless authentication  
-- 🏗️ Single-tenant or hybrid infrastructure  
-- ⚙️ Terraform-based provisioning for isolation and compliance  
-- 📊 Developer dashboard and analytics  
-- 💡 Ideal for SaaS builders and enterprises
+We specialize in **passwordless authentication systems**, developer-focused APIs, and operational tooling that emphasizes clarity, security, and production-ready design. Our products are built to be explicit, inspectable, and deployable without vendor lock-in.
 
 ---
 
-### 💸 Seamless Budget *(Coming Soon)*
-**Financial clarity for creators, startups, and small businesses.**  
-Seamless Budget is an intuitive budgeting and forecasting tool built to simplify financial management.  
-It connects your accounts, tracks spending, and helps you plan with confidence — without the complexity of enterprise finance systems.
+## Focus Areas
 
-**Focus Areas:**
-- Smart, automated expense categorization  
-- Simple goal-based budgeting  
-- Real-time insights for smarter decision-making  
+Fells Code builds software in the following domains:
 
----
+- Passwordless authentication and identity infrastructure
+- Developer tooling and APIs
+- Self-hosted and open source systems
+- Security-first application architecture
+- Production-shaped local development workflows
 
-### 🏢 Seamless Enterprise *(In Development)*
-**Enterprise-grade infrastructure and identity management.**  
-Seamless Enterprise expands the Seamless ecosystem to larger organizations, offering managed identity, security compliance (SOC-2, HIPAA), and multi-tenant orchestration built on AWS.
-
-**Core Capabilities:**
-- Advanced access controls and audit logging  
-- Automated infrastructure scaling  
-- Secure cross-organization data boundaries  
+Our work prioritizes correctness, transparency, and long-term maintainability over abstraction and convenience layers that obscure system behavior.
 
 ---
 
-## 🧩 Our Philosophy
+## Products and Projects
 
-At Fells Code, we believe **great software feels effortless**.  
-That’s why every product we build — from developer tools to enterprise platforms — is guided by our core principles:
+### Seamless Auth
 
-- **Security First** – We prioritize encryption, compliance, and privacy from day one.  
-- **Developer Empowerment** – Tools that integrate cleanly and make complex systems approachable.  
-- **Design with Purpose** – Every interface should feel intuitive, beautiful, and performant.  
-- **Transparency & Reliability** – We build long-term relationships through trust and consistent quality.  
+Seamless Auth is a passwordless authentication system designed to be embedded directly into applications. It avoids redirects, third-party hosted identity flows, and client-side token handling in favor of explicit, server-validated sessions.
 
----
+**Core projects:**
 
-## 🧠 Technology Stack
+- **Seamless Auth Server**  
+  https://github.com/fells-code/seamless-auth-server  
+  The authentication server responsible for verification, session issuance, and identity state.
 
-Our products are powered by:
-- **Infrastructure:** AWS (ECS, EFS, VPC, NAT, S3, CloudWatch), Terraform, Docker  
-- **Backend:** Node.js, Express, PostgreSQL, Redis  
-- **Frontend:** React, Next.js, Tailwind CSS  
-- **CI/CD:** GitHub Actions, Automated Terraform Pipelines  
-- **Security:** SOC-2 readiness, passwordless identity, secrets management  
+- **Seamless Auth API (Core)**  
+  https://github.com/fells-code/seamless-auth-core  
+  Framework-agnostic authentication logic used across all integrations.
 
----
+- **Seamless Auth Express Adapter**  
+  https://github.com/fells-code/seamless-auth-express  
+  Express middleware for authentication and role-based authorization.
 
-## 📬 Contact
+- **Seamless Auth React SDK**  
+  https://github.com/fells-code/seamless-auth-react  
+  Frontend integration for consuming authenticated session state in React applications.
 
-**Fells Code LLC**  
-📍 Based in the United States  
-🌐 [fellscode.com](https://fellscode.com) *(coming soon)*  
-📧 [contact@fellscode.com](mailto:contact@fellscode.com)
+**Key characteristics:**
+- Passwordless authentication (OTP, WebAuthn, Passkeys)
+- Cookie-based, server-side session validation
+- Explicit authentication and authorization boundaries
+- Self-hosted and infrastructure-agnostic
+- Local development that mirrors production behavior
 
-For partnerships, support, or inquiries, feel free to reach out.
-
----
-
-## 🧾 License
-
-All repositories under the Fells Code LLC organization are proprietary unless otherwise stated.  
-Please refer to the individual repository’s LICENSE file for details.
+Documentation:  
+https://docs.seamlessauth.com
 
 ---
 
-> _“Simplicity is the ultimate sophistication.”_ — Leonardo da Vinci  
-> _At Fells Code, we turn that philosophy into code._
+### Seamless Glance
 
+Seamless Glance is a developer-focused operational visibility tool designed to help teams quickly understand and triage cloud infrastructure.
+
+It provides a read-only, terminal-based interface that surfaces high-signal information without requiring deep navigation through provider consoles.
+
+Repository:  
+https://github.com/fells-code/seamless-glance
+
+Primary goals:
+- Fast infrastructure triage
+- Reduced cognitive overhead
+- Secure, read-only access
+- Clear operational context
+
+---
+
+## Design Philosophy
+
+All Fells Code projects follow a shared set of principles:
+
+- **Explicit over implicit**  
+  Systems should be understandable by reading the code and configuration.
+
+- **Security as a baseline**  
+  Authentication, authorization, and secrets management are first-class concerns.
+
+- **Production-shaped development**  
+  Local development environments should behave like production, not mock systems.
+
+- **Minimal abstraction**  
+  Abstractions should clarify behavior, not hide it.
+
+- **Long-term maintainability**  
+  We build systems intended to be operated, extended, and audited over time.
+
+---
+
+## Technology Stack
+
+Our products commonly use:
+
+- **Infrastructure:** Docker, Terraform, AWS (ECS, VPC, ALB, EFS, RDS)
+- **Backend:** Node.js, TypeScript, Express, PostgreSQL
+- **Frontend:** React, Vite, Next.js
+- **CI/CD:** GitHub Actions, automated release pipelines
+- **Security:** Passwordless authentication, signed cookies, JWKS, secrets management
+
+Technology choices are driven by operational clarity and security requirements rather than trends.
+
+---
+
+## Open Source and Licensing
+
+Fells Code maintains both open source and proprietary projects.
+
+Each repository clearly defines its license and usage terms in its own `LICENSE` file. Please refer to individual repositories for specific licensing details.
+
+---
+
+## Contact
+
+Fells Code LLC  
+United States  
+
+Website: https://fellscode.com  
+Email: contact@fellscode.com  
+
+For partnerships, security inquiries, or collaboration, please reach out via email.
+
+---
+
+Fells Code builds software that is meant to be understood, trusted, and run in production.
