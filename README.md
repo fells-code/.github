@@ -3,7 +3,7 @@
 **Building the future of software, one seamless experience at a time.**
 
 Fells Code LLC is a modern software development company focused on creating secure, scalable, and user-centric solutions for developers and businesses.  
-Our mission is simple: deliver powerful tools that remove friction — so you can build, launch, and scale faster.
+Our mission is simple: deliver powerful tools that remove friction, so you can build, launch, and scale faster.
 
 ---
 
@@ -26,7 +26,7 @@ It offers fully managed, single-tenant infrastructure, passwordless login via We
 ### 💸 Seamless Budget *(Coming Soon)*
 **Financial clarity for creators, startups, and small businesses.**  
 Seamless Budget is an intuitive budgeting and forecasting tool built to simplify financial management.  
-It connects your accounts, tracks spending, and helps you plan with confidence — without the complexity of enterprise finance systems.
+It connects your accounts, tracks spending, and helps you plan with confidence, without the complexity of enterprise finance systems.
 
 **Focus Areas:**
 - Smart, automated expense categorization  
@@ -49,12 +49,12 @@ Seamless Enterprise expands the Seamless ecosystem to larger organizations, offe
 ## 🧩 Our Philosophy
 
 At Fells Code, we believe **great software feels effortless**.  
-That’s why every product we build — from developer tools to enterprise platforms — is guided by our core principles:
+That’s why every product we build, from developer tools to enterprise platforms, is guided by our core principles:
 
-- **Security First** – We prioritize encryption, compliance, and privacy from day one.  
-- **Developer Empowerment** – Tools that integrate cleanly and make complex systems approachable.  
-- **Design with Purpose** – Every interface should feel intuitive, beautiful, and performant.  
-- **Transparency & Reliability** – We build long-term relationships through trust and consistent quality.  
+- **Security First**: We prioritize encryption, compliance, and privacy from day one.  
+- **Developer Empowerment**: Tools that integrate cleanly and make complex systems approachable.  
+- **Design with Purpose**: Every interface should feel intuitive, beautiful, and performant.  
+- **Transparency & Reliability**: We build long-term relationships through trust and consistent quality.  
 
 ---
 
@@ -87,7 +87,7 @@ Please refer to the individual repository’s LICENSE file for details.
 
 ---
 
-> _“Simplicity is the ultimate sophistication.”_ — Leonardo da Vinci  
+> _“Simplicity is the ultimate sophistication.”_ (Leonardo da Vinci)  
 > _At Fells Code, we turn that philosophy into code._
 
 
