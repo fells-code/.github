@@ -49,14 +49,16 @@ It is client-side encrypted with a zero-knowledge boundary: the server never see
 
 ---
 
-### Seamless Enterprise *(In Development)*
-**Enterprise-grade infrastructure and identity management.**  
-Seamless Enterprise expands the Seamless ecosystem to larger organizations, offering managed identity, security compliance (SOC-2, HIPAA), and multi-tenant orchestration built on AWS.
+### Seamless Review *(In Development)*
+**Expert, rubric-driven reviews for products and applications.**  
+Seamless Review is a review board where submissions receive structured, scored expert reviews against a clear rubric, with defined timeboxes and evidence requirements. Completed reviews can be published to a curated public showcase.  
+It also lays the groundwork for AI-assisted reviews, starting with UX reviews as a lower-cost, hybrid option.
 
-**Core Capabilities:**
-- Advanced access controls and audit logging  
-- Automated infrastructure scaling  
-- Secure cross-organization data boundaries  
+**Highlights:**
+- Structured rubric scoring (1 to 5) with screenshot evidence  
+- A reviewer workflow with payouts for completed reviews  
+- A curated public showcase of released reviews  
+- Optional inbound privacy aliases for reviewer contact
 
 ---
 
