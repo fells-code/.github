@@ -7,23 +7,23 @@ Our mission is simple: deliver powerful tools that remove friction, so you can b
 
 ---
 
-## 🚀 Our Products
+## Our Products
 
-### 🟣 [Seamless Auth](https://seamlessauth.com)
+### [Seamless Auth](https://seamlessauth.com)
 **Passwordless authentication, reimagined.**  
 Seamless Auth is a next-generation authentication platform designed for developers who value security and simplicity.  
 It offers fully managed, single-tenant infrastructure, passwordless login via WebAuthn, email, or phone, and first-class SDKs for React and Next.js.
 
 **Highlights:**
-- 🔒 100% passwordless authentication  
-- 🏗️ Single-tenant or hybrid infrastructure  
-- ⚙️ Terraform-based provisioning for isolation and compliance  
-- 📊 Developer dashboard and analytics  
-- 💡 Ideal for SaaS builders and enterprises
+- 100% passwordless authentication  
+- Single-tenant or hybrid infrastructure  
+- Terraform-based provisioning for isolation and compliance  
+- Developer dashboard and analytics  
+- Ideal for SaaS builders and enterprises
 
 ---
 
-### 💸 Seamless Budget *(Coming Soon)*
+### Seamless Budget *(Coming Soon)*
 **Financial clarity for creators, startups, and small businesses.**  
 Seamless Budget is an intuitive budgeting and forecasting tool built to simplify financial management.  
 It connects your accounts, tracks spending, and helps you plan with confidence, without the complexity of enterprise finance systems.
@@ -35,7 +35,7 @@ It connects your accounts, tracks spending, and helps you plan with confidence, 
 
 ---
 
-### 🏢 Seamless Enterprise *(In Development)*
+### Seamless Enterprise *(In Development)*
 **Enterprise-grade infrastructure and identity management.**  
 Seamless Enterprise expands the Seamless ecosystem to larger organizations, offering managed identity, security compliance (SOC-2, HIPAA), and multi-tenant orchestration built on AWS.
 
@@ -46,7 +46,7 @@ Seamless Enterprise expands the Seamless ecosystem to larger organizations, offe
 
 ---
 
-## 🧩 Our Philosophy
+## Our Philosophy
 
 At Fells Code, we believe **great software feels effortless**.  
 That’s why every product we build, from developer tools to enterprise platforms, is guided by our core principles:
@@ -58,7 +58,7 @@ That’s why every product we build, from developer tools to enterprise platform
 
 ---
 
-## 🧠 Technology Stack
+## Technology Stack
 
 Our products are powered by:
 - **Infrastructure:** AWS (ECS, EFS, VPC, NAT, S3, CloudWatch), Terraform, Docker  
@@ -69,18 +69,18 @@ Our products are powered by:
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Fells Code LLC**  
-📍 Based in the United States  
-🌐 [fellscode.com](https://fellscode.com) *(coming soon)*  
-📧 [contact@fellscode.com](mailto:contact@fellscode.com)
+Based in the United States  
+[fellscode.com](https://fellscode.com) *(coming soon)*  
+[contact@fellscode.com](mailto:contact@fellscode.com)
 
 For partnerships, support, or inquiries, feel free to reach out.
 
 ---
 
-## 🧾 License
+## License
 
 All repositories under the Fells Code LLC organization are proprietary unless otherwise stated.  
 Please refer to the individual repository’s LICENSE file for details.
