@@ -23,15 +23,29 @@ It offers fully managed, single-tenant infrastructure, passwordless login via We
 
 ---
 
-### Seamless Budget *(Coming Soon)*
-**Financial clarity for creators, startups, and small businesses.**  
-Seamless Budget is an intuitive budgeting and forecasting tool built to simplify financial management.  
-It connects your accounts, tracks spending, and helps you plan with confidence, without the complexity of enterprise finance systems.
+### [Seamless Glance](https://seamlessglance.com)
+**Terminal-native AWS cost and triage visibility.**  
+Seamless Glance is a fast, read-only terminal UI for AWS environments. It helps teams surface incidents, hygiene issues, and wasted spend, then pivot straight to the right AWS Console page or CLI command.  
+It closes the gap between "something looks wrong" and "we know exactly what to inspect next," without replacing the Console or CLI.
 
-**Focus Areas:**
-- Smart, automated expense categorization  
-- Simple goal-based budgeting  
-- Real-time insights for smarter decision-making  
+**Highlights:**
+- Read-only, terminal-first AWS operations dashboard  
+- Wasted-resource discovery with cost and savings context  
+- Precise pivots into the AWS Console and CLI  
+- Installs on macOS via Homebrew and on macOS or Linux via the install script
+
+---
+
+### Seamless Secrets *(In Development)*
+**A passwordless-first password and secrets manager.**  
+Seamless Secrets stores the credentials teams still need (passwords, passkeys, API keys, recovery codes, secure notes, and shared or environment secrets) while helping them move beyond passwords over time.  
+It is client-side encrypted with a zero-knowledge boundary: the server never sees plaintext secrets, vault keys, or recovery keys. It is being built to be open source and self-hostable, with an optional hosted service to follow.
+
+**Highlights:**
+- Client-side encryption, zero-knowledge by design  
+- Web vault, browser extension, and CLI  
+- Self-hostable and open source (AGPL-3.0), no vendor lock-in  
+- Scoped, auditable secret access for automation and AI agents
 
 ---
 
