@@ -47,7 +47,7 @@ issue it addresses.
 ## Code of Conduct
 
 Participation is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). Report
-concerns to conduct@fells.codes.
+concerns to conduct@fellscode.com.
 
 ## Security
 
