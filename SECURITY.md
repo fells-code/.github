@@ -12,7 +12,7 @@ Report privately through one of the following:
 
 - GitHub private vulnerability reporting (preferred): the "Report a
   vulnerability" button under the repository's Security tab.
-- Email: security@fells.codes with the subject `Security Issue: <repository>`.
+- Email: security@seamlessauth.com with the subject `Security Issue: <repository>`.
 
 When possible, include:
 
